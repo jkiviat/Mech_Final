@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/megn540/Desktop/MEGN540/Lab0-Blink/Lab0-blink.c
+led_interface.h
+/home/megn540/Desktop/MEGN540/Lab0-Blink/led_interface.h
+
+/home/megn540/Desktop/MEGN540/Lab0-Blink/led_interface.c
+led_interface.h
+/home/megn540/Desktop/MEGN540/Lab0-Blink/led_interface.h
+
+/home/megn540/Desktop/MEGN540/Lab0-Blink/led_interface.h
+avr/io.h
+-
+util/delay.h
+-
+ctype.h
+-
+stdint.h
+-
+
